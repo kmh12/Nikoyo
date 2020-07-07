@@ -2,8 +2,8 @@
 - hosts: all
   remote_user: root
   tasks:
-    - name: Register as user (joe_user) with password (somepass) and auto-subscribe to available content.
-      redhat_subscription:
+  - name: Register as user (joe_user) with password (somepass) and auto-subscribe to available content.
+    redhat_subscription:
       state: present
       username: jason@nikoyo.cn
       password: erYqRabsHZ
