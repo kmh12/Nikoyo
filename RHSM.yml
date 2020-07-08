@@ -6,7 +6,7 @@
     redhat_subscription:
       state: present
       username: jason@nikoyo.cn
-      password: 
+      password: erYqRabsHZ
       auto_attach: true
       pool_ids:
       - 8a85f9996d280acf016d5dd749eb48b8
